@@ -1,0 +1,57 @@
+@import '../use/color';
+@import '../use/button';
+
+//==========>>>>> Form css  <<<<<<=======\\
+#exampleFormControlInput1 {
+	margin: 0px;
+}
+#exampleFormControlTextarea1 {
+	margin: 0px;
+}
+.form-title{
+    margin-top: 50px;
+}
+.form-title h1{
+    color: $primary-text-black;
+    font-family: $primary-font;
+    font-size: 48px;
+    font-weight: bold;
+}
+.form-title p{
+    color: $Neutrals800;
+    font-family: $primary-font;
+    font-size: 20px;
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-bottom: 53px;
+}
+.contact-img{
+    padding-top: 60px;
+}
+
+
+// ==============Resposvive======== \\
+@media screen and (max-width:800px){
+    .contact-img {
+        margin: 0px 97px;
+    }
+}
+@media screen and (max-width:414px){
+    .contact-img {
+        width: 100%;
+        margin: 0px;
+    }
+    .form-title p{
+        width: 100%;
+    }
+}
+@media screen and (max-width:375px){
+    .contact-img {
+        width: 100%;
+        margin: 0px;
+    }
+    .form-title p{
+        width: 100%;
+    }
+}

@@ -1,0 +1,118 @@
+@import '../use/color';
+@import '../use/button';
+
+//==========>>>>> Success css  <<<<<<=======\\
+.success-info{
+    margin-top: 6rem;
+}
+.success-info h1{
+    font-weight: bold;
+    font-family: $primary-font;
+    font-size: 48px;
+    color:$primary-button-black;
+    width: 458px;
+}
+.success-infoh1:hover{
+    color:$primary-button-hover;
+}
+.success-info p{
+    color:$Neutrals800;
+    font-family: $primary-font;
+    font-size: 20px;
+    width: 458px;
+    margin-top: 25px;
+}
+.success-img{
+    margin-top: 6rem;
+}
+.main-img{
+    position: relative;
+}
+.img-one {
+	position: absolute;
+	z-index: 1;
+	margin-top: 5rem;
+	margin-left: 20rem;
+}
+.img-two {
+	position: absolute;
+	z-index: 1;
+	margin-top: 15rem;
+	margin-left: -89px;
+}
+
+// ==============Resposvive======== \\
+@media screen and (max-width:800px){
+    .success-img {
+        margin: 37px 105px;
+    }
+    .success-info h1 {
+        width: 100%;
+        font-size: 35px;
+    }
+    .success-info p{
+        width: 100%;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:414px) {
+    .success-info{
+        width: 100%;
+    }
+    .success-info h1{
+        width: 100%;
+        font-size: 25px;
+    }
+    .success-info p{
+        width: 100%;
+        font-size:15px;
+    }
+    .success-img {
+        margin: 33px 0px;
+    }
+    .main-img{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .img-one {
+        margin-top: 23rem;
+        margin-left: 200px;
+        width: 12rem;
+        height: 9rem;
+    }
+    .img-two {
+        margin-top: 23rem;
+        margin-left: 0rem;
+        width: 11rem;
+        height: 9rem;
+    }
+
+}
+@media screen and (max-width:375px) {
+    .success-info{
+        width: 100%;
+    }
+    .success-info h1{
+        width: 100%;
+        font-size: 25px;
+    }
+    .success-info p{
+        width: 100%;
+        font-size:15px;
+    }
+    .main-img{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .img-one {
+        margin-top: 23rem;
+        margin-left: 10rem;
+        width: 12rem;
+        height: 9rem;
+    }
+    .img-two {
+        margin-top: 23rem;
+        margin-left: 0rem;
+        width: 9rem;
+    }
+}

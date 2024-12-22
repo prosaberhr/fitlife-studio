@@ -1,0 +1,64 @@
+@import '../use/color';
+@import '../use/button';
+
+//==========>>>>> Trainer css  <<<<<<=======\\
+
+.trainer-title{
+    margin: 0 auto;
+}
+.trainer-title h1{
+    color: $primary-text-black;
+    font-family: $primary-font;
+    font-size: 48px;
+    font-weight: bold;
+}
+.trainer-title p{
+    color: $Neutrals800;
+    font-family: $primary-font;
+    font-size: 20px;
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.trainers-card{
+    width: 21rem;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+.trainers-card:hover{
+    border-radius: 10px;
+    border: 2px solid $primary-button-hover
+}
+.cards-body h3{
+    color: $primary-text-black;
+    font-family: $primary-font;
+    font-size: 20px;
+    font-weight: bold;
+}
+.cards-body p{
+    color: $Neutrals800;
+    font-family: $primary-font;
+    font-size: 18px;
+}
+.card-icon{
+    gap:10px;
+}
+.card-icon a{
+    color: $Neutrals800;
+}
+.card-icon a:hover{
+    color: $primary-button-hover
+}
+
+// ==============Resposvive======== \\
+@media screen and (max-width:414px){
+    .trainer-title p{
+        width: 100%;
+    }
+}
+@media screen and (max-width:375px){
+    .trainer-title p{
+        width: 100%;
+    }
+}

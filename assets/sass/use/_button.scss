@@ -1,0 +1,266 @@
+@import './color';
+
+
+// =======>>>>> Navber Button <<<<<<<<<============\\
+.nav-btn {
+	padding: 6px 15px;
+	background: $primary-button-hover;
+	color: $primary-text-white;
+	text-align: center;
+	font-family: $primary-font;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.nav-btn:hover{
+    border: 2px solid $primary-button-hover;
+    background: $primary-button-white;
+    color: $primary-text-hover;
+}
+// =======>>>>> Header Button <<<<<<<<<============\\
+
+.header-btn {
+	width: 158px;
+	height: 48px;
+	padding: 12px 24px;
+	background: $primary-button-hover;
+	color: $primary-text-white;
+	text-align: center;
+	font-family: $primary-font;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 0.06em;
+}
+.header-btn:hover{
+    border: 2px solid $primary-button-hover;
+    background: $primary-button-white;
+    color: $primary-text-hover;
+}
+
+
+.play-btn {
+	padding: 13px 15px;
+	background: $bg-white;
+	color: $primary-text-hover;
+	text-align: center;
+    border-radius: 80px;
+	width: 44px;
+	height: 44px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.play-btn:hover{
+    border: 2px solid $primary-button-hover;
+    background: $primary-button-hover;
+    color: $primary-text-white;
+}
+
+// =======>>>>> Hero Button <<<<<<<<<============\\
+.hero-btn {
+	width: 190px;
+	height: 48px;
+	padding: 12px 24px;
+    font-size: 16px;
+	background: $primary-button-hover;
+	color: $primary-text-white;
+	text-align: center;
+	font-family: $primary-font;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 0.06em;
+}
+.hero-btn:hover{
+    border: 2px solid $primary-button-hover;
+    background: $primary-button-white;
+    color: $primary-text-hover;
+}
+
+// =======>>>>> Service Button <<<<<<<<<============\\
+.service-btn{
+	width: 303px;
+	height: 48px;
+	padding: 12px 24px;
+	background: $primary-button-hover;
+	color: $primary-text-white;
+	text-align: center;
+	font-family: $primary-font;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 0.06em;
+}
+.service-btn:hover{
+    border: 2px solid $primary-button-hover;
+    background: $primary-button-white;
+    color: $primary-text-hover;
+}
+
+// =======>>>>> Success Button <<<<<<<<<============\\
+.success-btn {
+	width: 158px;
+	height: 48px;
+	padding: 12px 24px;
+	background: $primary-button-hover;
+	color: $primary-text-white;
+	text-align: center;
+	font-family: $primary-font;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 0.06em;
+}
+.success-btn:hover{
+    border: 2px solid $primary-button-hover;
+    background: $primary-button-white;
+    color: $primary-text-hover;
+}
+// =======>>>>> Plan Button <<<<<<<<<============\\
+
+.plan-btn-one{
+	width: 158px;
+	height: 48px;
+	padding: 12px 24px;
+	background: $primary-button-hover;
+	color: $primary-text-white;
+	text-align: center;
+	font-family: $primary-font;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 0.06em;
+}
+.plan-btn-one:hover{
+    border: 2px solid $primary-button-hover;
+    background: $primary-button-white;
+    color: $primary-text-hover;
+}
+.plan-btn-two{
+	width: 158px;
+	height: 48px;
+	padding: 12px 24px;
+	border: 2px solid $primary-button-hover;
+    background: $primary-button-white;
+    color: $primary-text-hover;
+	text-align: center;
+	font-family: $primary-font;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 0.06em;
+}
+.plan-btn-two:hover{
+	background: $primary-button-hover;
+	color: $primary-text-white;
+}
+.get-btn{
+	width: 267px;
+	height: 48px;
+	padding: 12px 24px;
+	background: $primary-button-hover;
+	color: $primary-text-white;
+	text-align: center;
+	font-family: $primary-font;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 0.06em;
+}
+.get-btn:hover{
+    border: 2px solid $primary-button-hover;
+    background: $primary-button-white;
+    color: $primary-text-hover;
+}
+.Premium-btn{
+	width: 267px;
+	height: 48px;
+	padding: 12px 24px;
+	border: 2px solid $primary-button-hover;
+    background: $primary-button-white;
+    color: $primary-text-hover;
+	text-align: center;
+	font-family: $primary-font;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 0.06em;
+}
+.Premium-btn:hover{
+	background: $primary-button-hover;
+	color: $primary-text-white;
+}
+
+// =======>>>>> Banner Button <<<<<<<<<============\\
+.banner-btn{
+	width: 267px;
+	height: 48px;
+	padding: 12px 24px;
+	background: $primary-button-hover;
+	color: $primary-text-white;
+	text-align: center;
+	font-family: $primary-font;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 0.06em;
+	margin-right: 135px;
+}
+.banner-btn:hover{
+    border: 2px solid $primary-button-hover;
+    background: $primary-button-white;
+    color: $primary-text-hover;
+}
+
+// =======>>>>> Form Button <<<<<<<<<============\\
+.form-btn{
+	width: 148px;
+	height: 48px;
+	padding: 12px 24px;
+	background: $primary-button-hover;
+	color: $primary-text-white;
+	text-align: center;
+	font-family: $primary-font;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 0.06em;
+	margin-right: 135px;
+}
+.form-btn:hover{
+    border: 2px solid $primary-button-hover;
+    background: $primary-button-white;
+    color: $primary-text-hover;
+}
+
+// ==============Resposvive======== \\
+
+@media screen and (max-width:414px){
+	.header-btn {
+		width: 119px;
+		font-size:9px;
+	}
+	.service-btn{
+		width: 283px;
+	}
+	.success-btn{
+		width: 138px;
+	}
+	.banner-btn{
+		margin-right: -17px;
+		width: 159px
+	}
+} 
+@media screen and (max-width:375px){
+	.header-btn {
+		width: 119px;
+		font-size: 9px;
+	}
+	.service-btn{
+		width: 283px;
+	}
+	.success-btn{
+		width: 138px;
+	}
+} 

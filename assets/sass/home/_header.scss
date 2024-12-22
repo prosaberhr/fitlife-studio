@@ -1,0 +1,132 @@
+@import '../use/color';
+@import '../use/button';
+
+//==========>>>>> Header Section Css  <<<<<<=======\\
+
+.header-section{
+  background: url(/assets/images/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 777px;
+} 
+.header {
+	margin: 127px 0px;
+} 
+.header-title{
+  color:$primary-text-white;
+  font-family: $secondary-font;
+  width: 492px;
+  height:345px;
+  font-weight: 900;
+  font-size: 65px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+}
+.header-text{
+  width: 558px;
+  line-height: 150%;
+  font-size: 20px;
+  font-family: $primary-font;
+  color: $secondary-text
+}
+.header-buttons {
+	display: flex;
+	gap: 37px;
+}
+.play-btn-text{
+	line-height: 42px;
+	color: $primary-text-white;
+}
+
+.play-btn-info{
+	display: flex;
+	gap: 22px;
+}
+.header-img{
+  margin-top: 3rem;
+}
+
+// ==============Resposvive======== \\
+@media screen and (max-width:800px) {
+  .header-section{
+    height:92rem;
+  }
+  .header{
+    margin: 50px 0px;
+  }
+  .header-img{
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .hero-img {
+    margin: 0px 80px;
+  }
+  .hero-title{
+    margin-top: 2rem;
+  }
+}
+
+
+
+@media screen and (max-width:414px) {
+  .header-section{
+    height:49rem ;
+  }
+  .header{
+    margin: 50px 0px;
+  }
+  .header-buttons {
+    gap:15px;
+  }
+  .header-title {
+    width: 100%;
+    font-size: 25px;
+    height: 86px;
+  }
+  .header-text{
+    width: 100%;
+    font-size: 15px;
+  }
+  .play-btn-info{
+    gap:13px;
+  }
+  .play-btn-text{
+    font-size: 15px;
+  }
+  .header-img{
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width:375px) {
+  .header-section{
+    height:49rem ;
+  }
+  .header{
+    margin: 50px 0px;
+  }
+  .header-buttons {
+    gap:15px;
+  }
+  .header-title {
+    width: 100%;
+    font-size: 25px;
+    height: 86px;
+  }
+  .header-text{
+    width: 100%;
+    font-size: 15px;
+  }
+  .play-btn-info{
+    gap:13px;
+  }
+  .play-btn-text{
+    font-size: 15px;
+  }
+  .header-img{
+    width: 100%;
+    margin-top: 1rem;
+  }
+}

@@ -1,0 +1,66 @@
+@import '../use/color';
+@import '../use/button';
+
+//==========>>>>> Heros css  <<<<<<=======\\
+.heros-title{
+    margin-top: 10rem;
+}
+.text-one h1{
+  color: $primary-text-black;
+  font-family: $primary-font;
+  font-size: 48px;
+  font-weight: bold;
+}
+.text-one p{
+    color: $Neutrals800;
+    font-family: $primary-font;
+    font-size: 20px;
+}
+.text-two h4{
+  color: $primary-text-black;
+  font-family: $primary-font;
+  font-size: 38px;
+  font-weight: bold;
+}
+.text-two p{
+    color: $Neutrals800;
+    font-family: $primary-font;
+    font-size: 20px;
+}
+.heros-img {
+	margin: 158px 85px;
+}
+
+
+
+// ==============Resposvive======== \\
+@media screen and (max-width:800px){
+    .heros-img {
+        margin: 62px 85px;
+    }
+    .heros-title{
+        margin-top: 70px;
+    }
+}
+@media screen and (max-width:414px){
+    .heros-img {
+        margin: 48px 0px;
+    }
+    .imgs{
+        width: 100%;
+    }
+    .heros-title{
+        margin-top: 70px;
+    }
+}
+@media screen and (max-width:375px){
+    .heros-img {
+        margin: 48px 0px;
+    }
+    .imgs{
+        width: 100%;
+    }
+    .heros-title{
+        margin-top: 70px;
+    }
+}

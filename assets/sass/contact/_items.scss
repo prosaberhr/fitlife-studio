@@ -1,0 +1,35 @@
+@import '../use/color';
+@import '../use/button';
+
+//==========>>>>> Form css  <<<<<<=======\\
+.items{
+    margin-top: 7rem;
+    padding-bottom: 20px;
+}
+.itrmd-card{
+    margin: 0 auto;
+    width: 20rem;
+    padding: 10px;
+}
+.itrmd-card:hover{
+    border: 2px solid $primary-button-hover;
+    border-radius: 10px;
+}
+.items-icon{
+    font-size: 40px;
+    color: $primary-text-black;
+}
+.items-card-title{
+    font-size: 36px;
+    color: $primary-text-black;
+    font-family: $primary-font;
+    font-weight: bold;
+}
+.items-card-text{
+    font-size: 15px;
+    color: $Neutrals950;
+    font-family: $primary-font;
+}
+.items-link{
+    color: $primary-text-black;
+}

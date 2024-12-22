@@ -1,0 +1,102 @@
+@import '../use/color';
+@import '../use/button';
+
+//==========>>>>> Hero Section Css  <<<<<<=======\\
+
+.hero-title{
+    font-size: 48px;
+    width:530px;
+    font-family: $primary-font;
+    font-weight: bold;
+    color:$primary-text-black;
+}
+.hero-title:hover{
+    color: $primary-text-hover;
+}
+.hero-description{
+   font-size:20px;
+   width:530px;
+   font-family: $primary-font; 
+   color:$Neutrals800;
+}
+.fitlife{
+    width: 530px;
+}
+.expert{
+    display: flex;
+    gap: 15px;
+}
+.check-icon{
+    width: 24px;
+    height: 24px;
+    background:$primary-button-hover;
+    color:$primary-text-white;
+    border-radius: 80px;
+    text-align: center;
+}
+.text-title {
+	line-height: 18px;
+    font-size: 20px;
+    color: $Neutrals800;
+    font-family: $primary-font;
+}
+.hero-img{
+    margin-top: 6rem;
+}
+.hero-info{
+    margin-top: 6rem;
+}
+
+
+
+// ==============Resposvive======== \\
+@media screen and (max-width:800px) {
+    .hero-img {
+      margin: 0px 80px;
+      margin-top: 3rem;
+    }
+    .hero-title{
+      margin-top: 2rem;
+    }
+}
+  
+@media screen and (max-width: 414px){
+    .hero-img{
+        width: 100%;
+        margin: 0px auto;
+        margin-top: 3rem;
+    }
+    .hero-info{
+        margin-top: 2rem;
+    }
+    .hero-title{
+        width: 100%;
+        font-size:30px;
+    }
+    .hero-description{
+        width:100%;
+    }
+    .fitlife{
+        width:100%;
+    }
+} 
+@media screen and (max-width: 375px){
+    .hero-img{
+        width: 100%;
+        margin: 0px auto;
+        margin-top: 3rem;
+    }
+    .hero-info{
+        margin-top: 2rem;
+    }
+    .hero-title{
+        width: 100%;
+        font-size:30px;
+    }
+    .hero-description{
+        width:100%;
+    }
+    .fitlife{
+        width:100%;
+    }
+} 

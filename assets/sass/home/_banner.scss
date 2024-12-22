@@ -1,0 +1,92 @@
+@import '../use/color';
+@import '../use/button';
+
+//==========>>>>> Banner Section css  <<<<<<=======\\
+
+.banner-img{
+    background-image: url(/assets/images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 556px;
+    margin-top: 6rem;
+}
+.banner {
+	margin: 0 auto;
+	width: 768px;
+	height: 316px;
+	margin-top: 117px;
+}
+.banner h1{
+    font-weight: bold;
+    font-family: $primary-font;
+    font-size: 48px;
+    color:$primary-button-white;
+}
+.banner h5{
+    font-family: $primary-font;
+    font-size: 19px;
+    color:$primary-button-white;
+    margin-top: 2rem;
+}
+.banner p{
+   color: $Neutrals100;
+   font-family: $primary-font;
+   font-size: 12px;
+   margin-top: 1rem;
+}
+
+.email-search  {
+	margin-right: 2rem;
+	margin-left: 9rem;
+	
+}
+.banner-from {
+	margin: 0px 0px;
+}
+
+// ==============Resposvive======== \\
+@media screen and (max-width:800px){
+    .banner-img{
+        width: 100%;
+    }
+    .banner{
+        width: 100%;
+    }
+}
+@media screen and (max-width:414px){
+    .banner-img {
+        width: 100%;
+        height: 33rem;
+    }
+    .banner{
+        width: 100%;
+        margin-top: 100px;
+    }
+    .banner h1{
+        font-size: 33px;
+    }
+    .email-search  {
+        margin-right: 1rem;
+        margin-left: -1rem;
+        
+    }
+
+}
+@media screen and (max-width:375px){
+    .banner-img {
+        width: 100%;
+        height: 33rem;
+    }
+    .banner{
+        width: 100%;
+        margin-top: 100px;
+    }
+    .banner h1{
+        font-size: 28px;
+    }
+    .email-search  {
+        margin-right: 1rem;
+        margin-left: -1rem;
+    }
+}

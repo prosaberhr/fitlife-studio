@@ -1,0 +1,101 @@
+@import '../use/color';
+@import '../use/button';
+@import '../base/rest';
+//==========>>>>> Footer Section css  <<<<<<=======\\
+.footer{
+    justify-content: space-between;
+    margin-top: 9rem;
+}
+.footre-img {
+	width: 98px;
+	height: 23px;
+}
+.menu{
+    list-style: none;
+    gap: 20px;
+   
+}
+.menu a{
+    color: $primary-button-black;
+}
+.menu a:hover{
+    color: $primary-button-hover;
+}
+.social-media-icon{
+   gap: 20px;
+}
+.social-media-icon i{
+    color: $primary-button-hover;
+}
+.social-media-icon i:hover{
+    color: $primary-button-black;
+}
+.borders{
+    color: $primary-text-black
+}
+.footer-info {
+	justify-content: center;
+	gap: 40px;
+	padding-top: 18px;
+	padding-bottom: 60px;
+}
+// ==============Resposvive======== \\
+
+@media screen and (max-width:414px){
+    .footer{
+        flex-direction: column;
+        margin-top: 6rem;
+    }
+    .footer-info {
+        flex-direction: column;
+    }
+    .footre-img {
+        width: 24rem;
+        height: 5rem;
+        padding-bottom: 21px;
+    }
+    .menu{
+        margin: 0 auto;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .social-media-icon{
+        margin: 0 auto;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .footer-info{
+        text-align: center;
+        gap: 10px;
+    }
+
+}    
+@media screen and (max-width:375px){
+    .footer{
+        flex-direction: column;
+        margin-top: 6rem;
+    }
+    .footer-info {
+        flex-direction: column;
+    }
+    .footre-img {
+        width: 21rem;
+        height: 5rem;
+        padding-bottom: 21px;
+    }
+    .menu{
+        margin: 0 auto;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .social-media-icon{
+        margin: 0 auto;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .footer-info{
+        text-align: center;
+        gap: 10px;
+    }
+
+}

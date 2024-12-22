@@ -1,0 +1,119 @@
+@import '../use/color';
+@import '../use/button';
+
+//==========>>>>> Real Section css  <<<<<<=======\\
+
+.real-section {
+	margin: 0px 238px;
+	margin-top: 7rem;
+}
+.real-section h1{
+	width: 843px;
+    font-weight: bold;
+    font-family: $primary-font;
+    font-size: 48px;
+    color:$primary-button-black;
+    text-align: center;
+}
+.real-section h1:hover{
+    color:$primary-button-hover;
+}
+.real-section p {
+	width: 829px;
+	color: #535353;
+	font-family: "Roboto",serif;
+	font-size: 20px;
+	margin-top: 25px;
+	text-align: center;
+}
+.real-card{
+    width: 21rem;
+    border: 2px solid $Neutrals950;
+    margin: 0 auto; 
+}
+.real-card-two{
+    width: 21rem;
+    border: 2px solid $Neutrals950;
+    height: 406px;
+    margin: 0 auto; 
+}
+.real-star{
+    color: $primary-text-hover;
+}
+.card-text{
+    color: $primary-text-black;
+    font-family: $primary-font;
+    font-size: 18px;
+}
+.review-info {
+	gap: 15px;
+	line-height: 24px;
+}
+.review {
+	margin-top: 10px;
+}
+.review-writer{
+    color: $primary-text-black; 
+    font-weight: 650;
+}
+.review-writer p{
+    color:$Neutrals800;
+}
+
+
+
+// ==============Resposvive======== \\
+@media screen and (max-width:800px){
+    .real-section{
+        margin: 0px 0px;
+	    margin-top: 7rem;
+    }
+    .real-section h1 {
+        width: 100%;
+        font-size: 35px;
+    }
+    .real-section p {
+        width: 100%;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:414px){
+    .real-section{
+        margin: 0px 0px;
+	    margin-top: 7rem;
+    }
+    .real-section h1 {
+        width: 100%;
+        font-size: 25px;
+    }
+    .real-section p {
+        width: 100%;
+        font-size: 16px;
+    }
+    .real-card{
+        margin: 0 auto;
+    }
+    .real-card-two{
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:375px){
+    .real-section{
+        margin: 0px 0px;
+	    margin-top: 7rem;
+    }
+    .real-section h1 {
+        width: 100%;
+        font-size: 25px;
+    }
+    .real-section p {
+        width: 100%;
+        font-size: 16px;
+    }
+    .real-card{
+        margin: 0 auto;
+    }
+    .real-card-two{
+        margin: 0 auto;
+    }
+}

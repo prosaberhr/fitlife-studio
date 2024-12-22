@@ -1,0 +1,141 @@
+@import '../use/color';
+@import '../use/button';
+
+//==========>>>>> Plan Section css  <<<<<<=======\\
+.plan-title {
+	margin: 0px 286px;
+	margin-top: 7rem;
+}
+.plan-title h1{
+	width: 698px;
+    font-weight: bold;
+    font-family: $primary-font;
+    font-size: 48px;
+    color:$primary-button-black;
+}
+.plan-title h1:hover{
+    color:$primary-button-hover;
+}
+.plan-title p{
+	width: 768px;
+    color:$Neutrals800;
+    font-family: $primary-font;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.plan-btn {
+	display: flex;
+	justify-content: center;
+	gap: 26px;
+}
+.plan-card{
+    font-family: $primary-font;
+    width: 21rem;
+    border: 2px solid $primary-button-hover;
+    background: $primary-button-white;
+    margin: 0 auto; 
+}
+// .plan-card h5 h1 p:hover{
+//     background: $primary-button-hover;
+//     color:$primary-text-white;
+// }
+.price{
+    color:$primary-text-hover;
+}
+.card-text p{
+    display: flex;
+    gap: 10px;
+    color:$Neutrals950;
+    font-size: 15px;
+}
+.Basic-card {
+	padding-bottom: 22px;
+}
+.Basic-card p{
+    display: flex;
+    gap: 10px;
+    color:$Neutrals950;
+    font-size: 15px;
+}
+.Premium-card{
+    font-family: $primary-font;
+    width: 21rem;
+    border: 2px solid $primary-button-hover;
+    background: $primary-button-hover;
+    margin: 0 auto; 
+}
+.Premium-card h5{
+    color:$primary-text-white;  
+}
+// .plan-card h5 h1 p:hover{
+//     background: $primary-button-hover;
+//     color:$primary-text-white;
+// }
+.Premium-price{
+    color:$primary-text-white;
+}
+.Premium-text p{
+
+    display: flex;
+    gap: 10px;
+    color:$primary-text-white;
+    font-size: 15px;
+}
+
+
+// ==============Resposvive======== \\
+@media screen and (max-width:800px){
+    .plan-title{
+        margin: 0px 0px;
+        margin-top: 9rem;
+    }
+    .plan-title h1 {
+        width: 100%;
+        font-size: 31px;
+    }    
+    .plan-title p{
+        width: 100%;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:414px){
+    .plan-title{
+        margin: 0px 0px;
+        margin-top: 9rem;
+    }
+    .plan-title h1 {
+        width: 100%;
+        font-size: 21px;
+    }    
+    .plan-title p{
+        width: 100%;
+        font-size: 13px;
+    }
+    .plan-card{
+        margin: 0 auto;
+    }    
+    .Premium-card{
+        margin: 0 auto;
+    }    
+}
+
+@media screen and (max-width:375px){
+    .plan-title{
+        margin: 0px 0px;
+        margin-top: 9rem;
+    }
+    .plan-title h1 {
+        width: 100%;
+        font-size: 21px;
+    }    
+    .plan-title p{
+        width: 100%;
+        font-size: 13px;
+    }
+    .plan-card{
+        margin: 0 auto;
+    }    
+    .Premium-card{
+        margin: 0 auto;
+    }    
+}

@@ -1,0 +1,58 @@
+@import '../use/color';
+@import '../use/button';
+
+//==========>>>>> Services css  <<<<<<=======\\
+.service-title {
+    margin-top:7rem;
+}
+.service-title h1{
+    font-size: 48px;
+    font-family: $primary-font;
+    font-weight: bold;
+    color:$primary-text-black;
+}
+.service-title h1:hover{
+    color:$primary-text-hover
+}
+.service-title p{
+    color:$Neutrals800;
+    font-size:20px;
+    margin-top: 10px;
+}
+.card-img-top {
+	padding: 3px;
+}
+.service-card {
+	width: 20rem;
+	margin: 0 auto;
+    background: $Neutrals50;
+    border-radius: 10px;
+    padding: 10px;
+}
+.service-card:hover{
+    border: 2px solid $primary-button-hover;
+}
+.service-card-title{
+    font-size:24px;
+    font-family: $primary-font;
+    color:$primary-text-black;
+}
+.service-card-text{
+    font-size:16px;
+    font-family: $primary-font;
+    color:$Neutrals800;
+}
+
+// ==============Resposvive======== \\
+
+
+@media screen and (max-width:414px){
+    .service-card{
+        width: 19rem;
+    }
+}
+@media screen and (max-width:375px){
+    .service-card{
+        width: 19rem;
+    }
+}

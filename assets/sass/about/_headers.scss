@@ -1,0 +1,77 @@
+@import '../use/color';
+@import '../use/button';
+
+//==========>>>>> Headers css  <<<<<<=======\\
+
+.headers-section{
+    background-image: url(/assets/images/Header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 442px;
+}
+.headers {
+	margin: 100px 193px;
+}
+.headers h1{
+    font-family: $primary-font;
+    font-size: 48px;
+    font-weight: bold;
+    color: $primary-button-white;
+    width: 948px;
+}
+.headers p{
+    font-family: $primary-font;
+    font-size: 20px;
+    color: $Neutrals50;
+    width: 948px;
+    margin-top: 32px;
+}
+
+
+// ==============Resposvive======== \\
+@media screen and (max-width:800px){
+    .headers {
+        margin: 0px 0px;
+    }
+    .headers h1, .headers .h1 {
+        width: 100%;
+        font-size: 37px;
+        margin-top: 7rem;
+    }
+    .headers p {
+        width: 100%;
+        margin-top: 37px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:414px){
+    .headers {
+        margin: 0px 0px;
+    }
+    .headers h1, .headers .h1 {
+        width: 100%;
+        font-size: 30px;
+        margin-top: 7rem;
+    }
+    .headers p {
+        width: 100%;
+        margin-top: 37px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:375px){
+    .headers {
+        margin: 0px 0px;
+    }
+    .headers h1, .headers .h1 {
+        width: 100%;
+        font-size: 30px;
+        margin-top: 7rem;
+    }
+    .headers p {
+        width: 100%;
+        margin-top: 37px;
+        font-size: 14px;
+    }
+}
